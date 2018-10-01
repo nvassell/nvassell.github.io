@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Basic|Fredoka+One|Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800i');
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Russo One', sans-serif; Nav Selection Items
+font-family: 'Basic', sans-serif; Everything else*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* HEADER START */
+header{
+    margin: 0px auto;
+    /* border-bottom: 10px solid #F0F4F4; */
+}
+
+nav{
+    height: 20px;
+    background-color: #59221E;
+    width: 100%;
+    height: 311px;
+    margin: 0px auto;
+    /* border-bottom: 10px solid #1C0E18; */
+
+}
+.left{
+    float:left;
+    width: 100px;
+    padding: 85px 140px 85px 30px;
+    background-color: #251313;
+}
+.right{
+    float:right;
+}
+
+.name {
+    padding: 30px 0 30px 0;
+}
+
+.media {
+    width: 100%;
+    height: 40px;
+    padding-left: 30px;
+    background-color: #251313;
+}
+
+.logo {
+    padding: 10px;
+    padding-left:40px;
+    padding-right: 40px;
+    height: 20px;
+    width: 20px;
+    transition: 300ms;
+}
+
+.logo:hover {
+    transform: translateY(-20px);
+    transition: 300ms;
+}
+
+nav a {
+    width: 20px;
+    /* padding-top: 30px; */
+    color:#F0F4F4;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    font-style: italic;
+    transition: 300ms;
+}
+
+nav a:hover {
+    border-left: 5px solid #C09a2b;
+    padding-left: 10px;
+    transition: 300ms;
+    
+}
+
+nav li:hover {
+    /* transform: translateX(25px); */
+    transition: 300ms;
+}
+
+nav li {
+   list-style-type: none;
+}
+
+nav h1 {
+    font-family: 'Fredoka One', cursive;
+}
+
+.background{
+    height: 500px;
+    background-image: url(../images/moss.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* HEADER END */
+
+
+/* MAIN START */
+main {
+    
+}
+
+.title{
+    height: 80px;
+    background-color: #251313;
+    color: #F0F4F4;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    font-style: italic;
+    border-top: 10px solid #F0F4F4;
+}
+
+
+.title h1 {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.body{
+    background-color: #59221E;
+    color: #F0F4F4;
+    font-family: 'Basic', sans-serif;
+    padding-left: 80px;
+}
+
+#portfolio .body {
+    height: 400px;
+    
+}
+
+#contact .body {
+    height: 400px;
+    
+}
+/* MAIN END */
