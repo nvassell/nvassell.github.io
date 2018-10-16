@@ -12,7 +12,8 @@ font-family: 'Basic', sans-serif; Everything else*/
 /* HEADER START */
 body{
     /* height: 4000px; */
-    width: 1366px;
+    /* width: 1366px; */
+    width: 100%;
     margin: 0px auto;
     font-family: 'Basic', sans-serif;
     cursor: auto;
@@ -22,7 +23,7 @@ header{
 }
 
 nav{
-    height: 750px;
+    height: 600px;
 
 }
 .header-left{
@@ -40,12 +41,12 @@ nav{
 
 .header-left ul {
     padding-left: 30%;
-    padding-top: 40%;
+    padding-top: 35%;
 }
 
 .media{
     padding-left: 235px;
-    padding-top: 18em;
+    padding-top: 175px;
 
 }
 li{
@@ -76,7 +77,7 @@ nav a {
     transition: 300ms;
 }
 
-nav a:hover {
+nav ul a:hover {
     border-left: 5px solid #FFAC19;
     padding-left: 10px;
     transition: 300ms;
