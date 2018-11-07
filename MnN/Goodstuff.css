@@ -1,0 +1,90 @@
+* {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 20px
+}
+body {
+}
+.GAME {
+	width: 960px;
+	height: 100vh;
+	margin: 0px auto;
+	/* margin-top: 150px; */
+	background-color: white;
+	opacity: .8;
+}
+#Hp {
+	padding-left: 340px;
+	padding-right: 310px;
+	margin: 0px auto;
+	width: 340px;
+
+}
+img.title {
+	width: 960px;
+	height: auto;
+}
+a {
+    background-color: #0A1D61;
+    border: 1px;
+    color: #ffffff;
+    padding: 7.5px 16px;
+    text-decoration: none;
+    text-align: center;
+    cursor: default;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+#retry:hover,#offence:hover,#spAttack:hover,#blick:hover {;
+	opacity: .4;
+	transition: .2s;
+}
+
+#yourHP,#enemyHP{ 
+	font-family: 'Bungee', cursive;
+	border: none;
+	background-color: rgba(255,0,0,0);
+	padding-left: 20px;
+	padding-bottom: 50px;
+	font-size: 20px;
+	margin-top: -15px;
+}
+#yourHP {
+	color: green;
+	width: 70px;
+}
+#enemyHP {
+	color: red;
+	width: 70px;
+}
+.plays {
+	width: 175px;
+	padding-left: 420px;
+}
+#plays {
+	background-color: rgba(255,0,0,0);
+	border: none;
+	color: blue;
+	font-family: 'Bungee', cursive;
+	padding-left: 20px;
+	padding-top: 30px;
+}
+#offence,#spAttack,#blick,#retry {
+ 	background-color: rgba(255,0,0,0);
+ 	border: none; 
+}
+.top {
+	display: flex;
+	margin-left: 95px;
+}
+.bottom {
+	display: flex;
+	margin-left: 95px
+}
+#button {
+	padding-right: 100px;
+}
+#button3 {
+	padding-right: 100px;
+}

@@ -52,17 +52,17 @@ nav{
 }
 
 .body-shot {
-    height: 300px;
-    width: auto;
-    /* transform: rotate(90deg); */
+    /* height: 300px; */
+    width: 500px;
 }
 li{
     list-style-type: none;
     transition: 300ms;
     cursor: auto;
+    color: white;
 }
 h1{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 h2{
     /* border-left: 2.55px solid #64E19A; */
@@ -71,6 +71,7 @@ h2{
 }
 p {
     text-indent: 50px;
+    padding-bottom: 30px;
 }
 nav a {
     width: 20px;
@@ -103,6 +104,7 @@ nav li:hover {
     padding-top: 100px;
 
 }
+
 nav li {
    list-style-type: none;
 }
@@ -130,9 +132,12 @@ main li {
     text-indent: 50px;
 }
 main li:hover{
-    border-left: 2.5px solid #0A070C;
+    padding-left: 5px;
+    /* border-left: 2.5px solid #0A070C; */
     transition: 300ms;
 }
+
+
 .logo {
     padding: 10px;
     padding-left:40px;
@@ -152,6 +157,7 @@ main li:hover{
     /* height: 600px; */
     height: 100vh;
 }
+
 #portfolio-container{
     background-color: #0A070C;
     color: #F0F4F4;
@@ -164,6 +170,33 @@ main li:hover{
     /* height: 300px; */
     height: 100vh;
 }
+#fixedbutton {
+    position: fixed;
+    width: 100px;
+    height: auto;
+    bottom: 0px;
+    right: 0px;
+    background-color: #FFAC19;
+}
 @media only screen and (max-width: 600px) {
     
+    .header-left {
+        width: 100%;
+    }
+    .header-right {
+        width: 0%;
+        height: 0vh;
+        display: none;
+    }
+    #fixedbutton{
+        display: none;
+    }
+    img {
+        display: none;
+    }
+    #about-container, #portfolio-container, #contact-container{ 
+        width: 100%;
+    }
+
 }
+ 
