@@ -176,10 +176,12 @@ main li:hover{
     height: auto;
     bottom: 0px;
     right: 0px;
-    background-color: #FFAC19;
+    /* background-color: #FFAC19; */
 }
-@media only screen and (max-width: 600px) {
-    
+@media only screen and (max-width: 500px) {
+    body {
+        width: 100%;
+    }
     .header-left {
         width: 100%;
     }
@@ -188,15 +190,20 @@ main li:hover{
         height: 0vh;
         display: none;
     }
-    #fixedbutton{
+    /* #fixedbutton{
         display: none;
-    }
+    } */
     img {
         display: none;
     }
     #about-container, #portfolio-container, #contact-container{ 
         width: 100%;
     }
+
+}
+
+@media only screen and (max-width: 500) {
+    
 
 }
  
