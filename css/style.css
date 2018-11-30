@@ -45,12 +45,6 @@ nav{
     padding-top: 40vh;
 }
 
-.media{
-    padding-left: 235px;
-    padding-top: 175px;
-
-}
-
 .body-shot {
     /* height: 300px; */
     width: 500px;
@@ -59,6 +53,8 @@ li{
     list-style-type: none;
     transition: 300ms;
     cursor: auto;
+}
+a:visited{
     color: white;
 }
 h1{
@@ -72,6 +68,9 @@ h2{
 p {
     text-indent: 50px;
     padding-bottom: 30px;
+}
+a {
+    text-decoration: none;
 }
 nav a {
     width: 20px;
@@ -107,6 +106,8 @@ nav li:hover {
 
 nav li {
    list-style-type: none;
+   color: White;
+   text-decoration: none;
 }
 
 nav h1 {
@@ -147,10 +148,6 @@ main li:hover{
     transition: 300ms;
 }
 
-.logo:hover {
-    transform: translateY(-10px);
-    transition: 300ms;
-}
 #about-container{
     margin: 0px auto;
     width: 650px;
@@ -178,32 +175,62 @@ main li:hover{
     right: 0px;
     /* background-color: #FFAC19; */
 }
+.media{
+    text-align: center;
+
+}
+#smedia {
+    width: 50px;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#smedia:hover {
+    transform: translateY(-10px);
+    transition: 300ms;
+}
 @media only screen and (max-width: 500px) {
+
     body {
         width: 100%;
     }
-    .header-left {
+    .header-left{
+        width: 100%;
+    }
+    #about-container{
+        width: 100%;
+    }
+    #portfolio-container{
+        width: 100%;
+    }
+    #contact-container{
         width: 100%;
     }
     .header-right {
-        width: 0%;
-        height: 0vh;
         display: none;
     }
-    /* #fixedbutton{
+    #fixedbutton{
+        display: none;
+    }
+    .body-shot{
+        display: none;
+    }
+
+    p {
+        font-size: 15px;
+    }
+    /* img {
         display: none;
     } */
-    img {
-        display: none;
-    }
-    #about-container, #portfolio-container, #contact-container{ 
-        width: 100%;
-    }
-
-}
-
-@media only screen and (max-width: 500) {
+    .information {
+        width: 80%;
+        padding-top: 100px;
+        padding-left: 8.5px;
+        padding-right: 8.5px;
     
-
+    }
 }
+
  
