@@ -71,6 +71,7 @@ p {
 }
 a {
     text-decoration: none;
+    color: white;
 }
 nav a {
     width: 20px;
