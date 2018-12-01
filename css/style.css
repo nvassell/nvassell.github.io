@@ -54,9 +54,9 @@ li{
     transition: 300ms;
     cursor: auto;
 }
-a:visited{
+/* a:visited{
     color: white;
-}
+} */
 h1{
     padding-bottom: 30px;
 }
