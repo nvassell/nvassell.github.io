@@ -180,12 +180,6 @@ main #portfolio-container li:hover{
     /* height: 600px; */
     height: 100vh;
 }
-#skills-container{
-    margin: 0px auto;
-    width: 650px;
-    /* height: 300px; */
-    height: 100vh;
-}
 #fixedbutton {
     position: fixed;
     width: 100px;
@@ -207,9 +201,6 @@ main #portfolio-container li:hover{
         width: 100%;
     }
     #portfolio-container{
-        width: 100%;
-    }
-    #contact-container{
         width: 100%;
     }
     .header-right {
