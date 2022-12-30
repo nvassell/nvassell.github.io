@@ -1,41 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Basic|Fredoka+One|Russo+One');
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800i');
-/*
-font-family: 'Open Sans', sans-serif;
-font-family: 'Russo One', sans-serif; Nav Selection Items
-font-family: 'Basic', sans-serif; Everything else*/
+
 * {
     margin: 0;
     padding: 0;
 }
 /* HEADER START */
-body{
-    /* height: 4000px; */
-    /* width: 1366px; */
+body {
     width: 100%;
     margin: 0px auto;
     font-family: 'Basic', sans-serif;
     cursor: auto;
 }
-header{
+header {
     margin: 0px auto;
     height: 100vh;
 }
 
-nav{
+nav {
     height: 600px;
 
 }
-.header-left{
+.header-left {
     display: block;
     float: left;
     width: 50%;
     height: 100vh;
     background-color: #0A070C;
 }
-.header-right{
-    /* background-color: green; */
+.header-right {
     width: 50%;
     height: 100vh;
 }
@@ -45,28 +39,23 @@ nav{
     padding-top: 40vh;
 }
 
-.body-shot {
-    /* height: 300px; */
-    width: 500px;
-}
 li{
     list-style-type: none;
     transition: 300ms;
     cursor: auto;
 }
-/* a:visited{
-    color: white;
-} */
+
 h1{
     padding-bottom: 30px;
 }
+
 h2{
     /* border-left: 2.55px solid #64E19A; */
     color: #FFAC19;
     
 }
 p {
-    text-indent: 50px;
+    /* text-indent: 50px; */
     padding-bottom: 30px;
 }
 a {
@@ -97,14 +86,6 @@ nav li:hover {
     transition: 300ms;
 }
 
-
-.information {
-    margin: 0px auto;
-    width: 500px;
-    padding-top: 100px;
-
-}
-
 nav li {
    list-style-type: none;
    color: White;
@@ -133,7 +114,11 @@ nav h1 {
 main li {
     text-indent: 50px;
 }
-main li:hover{
+
+main #about-container li {
+    padding: 5px;
+}
+main #portfolio-container li:hover{
     padding-left: 5px;
     /* border-left: 2.5px solid #0A070C; */
     transition: 300ms;
@@ -149,36 +134,32 @@ main li:hover{
     transition: 300ms;
 }
 
+.information {
+    margin: 0px auto; 
+    padding-top: 100px; 
+    width: 500px;
+}
+
 #about-container{
     margin: 0px auto;
-    width: 650px;
-    /* height: 600px; */
     height: 100vh;
+    /* width: 650px; */
+    /* height: 600px; */
 }
 
-#portfolio-container{
-    background-color: #0A070C;
-    color: #F0F4F4;
-    /* height: 600px; */
-    height: 100vh;
-}
-#contact-container{
-    margin: 0px auto;
-    width: 650px;
+.head-shot {
     /* height: 300px; */
-    height: 100vh;
+    border-radius: 50%;
+    width: 350px;
+    display:block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-#fixedbutton {
-    position: fixed;
-    width: 100px;
-    height: auto;
-    bottom: 0px;
-    right: 0px;
-    /* background-color: #FFAC19; */
-}
-.media{
+.media {
+    margin-top: 40px;
+    margin-bottom: 40px;
     text-align: center;
-
 }
 #smedia {
     width: 50px;
@@ -192,6 +173,28 @@ main li:hover{
     transform: translateY(-10px);
     transition: 300ms;
 }
+
+#portfolio-container{
+    background-color: #0A070C;
+    color: #F0F4F4;
+    /* height: 600px; */
+    height: 100vh;
+}
+#skills-container{
+    margin: 0px auto;
+    width: 650px;
+    /* height: 300px; */
+    height: 100vh;
+}
+#fixedbutton {
+    position: fixed;
+    width: 100px;
+    height: auto;
+    bottom: 0px;
+    right: 0px;
+    /* background-color: #FFAC19; */
+}
+
 @media only screen and (max-width: 500px) {
 
     body {
